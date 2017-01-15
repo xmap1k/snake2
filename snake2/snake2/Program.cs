@@ -13,8 +13,15 @@ namespace snake2
             point p1 = new point(1, 2, '*');
             p1.Draw();
 
-            point p2 = new point(3,4,'#');
+            point p2 = new point(3, 4, '#');
             p2.Draw();
+
+            point p3 = new point(4, 4, '#');
+            p3.Draw();
+
+            point p4 = new point(5, 4, '#');
+            p4.Draw();
+
 
             Console.ReadLine();
 
